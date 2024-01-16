@@ -1,0 +1,9 @@
+<p class="text-3xl">home works!</p>
+<div class="m-4">
+
+    <div *ngFor="let bill of allBills" class="flex bg-white mt-2 gap-2 rounded-lg p-6 align-middle">
+        <p class="text-xl">{{bill['name']}}</p>
+        <p class="text-lg ml-auto pr-4">{{'$' + bill['amount_pending']}}</p>
+    </div>
+</div>
+  

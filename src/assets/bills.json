@@ -1,0 +1,30 @@
+{
+    "bills": [
+        {
+            "name": "Rahul",
+            "type": "User",
+            "amount_pending": 250
+        },
+        {
+            "name": "Monish",
+            "type": "User",
+            "amount_pending": 400
+        },
+        {
+            "name": "Suhaas",
+            "type": "User",
+            "amount_pending": 550
+        },
+        {
+            "name": "Master's room",
+            "type": "Group",
+            "amount_pending": 1000
+        },
+        {
+            "name": "Office",
+            "type": "Group",
+            "amount_pending": 150
+        }
+        
+    ]
+}
